@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Brajesh</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h2>Hello,</h2>
+          <h1>I am Brajesh Gupta.</h1>
+          <br />
+          <section class="header-area">
+            <h3>I'm a <span class="animate"></span></h3>
+          </section>
+
+          <br />
+          <div class="button" id="connect">Connect</div>
+        </div>
+        <div class="main__img--container">
+          <img src="Assets/Brajesh profile.jpg" alt="" id="main__img" />
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("connect").onclick = function () {
+        window.location.href =
+          "https://www.linkedin.com/in/1brajesh1";
+      };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".animate", {
+        strings: ["Developer", "Learner", "Believer"],
+        typeSpeed: 65,
+        backSpeed: 65,
+        loop: true,
+      });
+    </script>
+
+    <script type="text/javascript" src="Js/particles.js"></script>
+    <script type="text/javascript" src="Js/app.js"></script>
+  
+ </body>
+
+</html>
