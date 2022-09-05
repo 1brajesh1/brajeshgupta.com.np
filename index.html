@@ -9,39 +9,81 @@
   </head>
 
   <body>
-    <div class="main">
-      <div class="main__container">
-        <div class="main__content">
-          <h2>Hello,</h2>
-          <h1>I am Brajesh Gupta.</h1>
-          <br />
-          <section class="header-area">
-            <h3>I'm a <span class="animate"></span></h3>
-          </section>
+      <div class="main">
+          <div class="main__container">
+              <div class="main__content">
+                  <h2>Hello,</h2>
+                  <h1>I am Brajesh Gupta.</h1>
+                  <br />
+                  <section class="header-area">
+                      <h3>I'm a <span class="animate"></span></h3>
+                  </section>
 
-          <br />
-          <div class="button" id="connect">Connect</div>
-        </div>
-        <div class="main__img--container">
-          <img src="Assets/Brajesh profile.jpg" alt="" id="main__img" />
-        </div>
+                  <br />
+                  <div class="button" id="connect">Connect</div>
+                  <!--<div class="button" id="connect1">SaveSoil.org</div>-->
+              </div>
+              <div class="main__img--container">
+                  <img src="Assets/Brajesh profile.jpg" alt="" id="main__img" />
+              </div>
+          </div>
+          <hr />
+          <hr />
+          <div class="main__container">
+              <div class="main__content">
+                  <!--<h2>Hello,</h2>-->
+                  <h1>I am Earth Buddy.</h1>
+                  <br />
+                  <section class="header-area">
+                      <h3>LET US MAKE IT HAPPEN! <span class="animate1"></span></h3>
+    </section>
+
+                  <br />
+                  <!--<div class="button" id="connect">Connect</div>-->
+                  <div class="button" id="connect1">SaveSoil.org</div>
+                  <div class="button" id="connect2">Join as an Earth Buddy</div>
+                  <div class="button" id="connect3">HowToSaveSoil: Five Methods of Soil Revitalization</div>
+
+              </div>
+              <div class="main__img1--container">
+                  <img src="Assets/Soil Health.jpg" alt="" id="main__img1" />
+              </div>
+          </div>
       </div>
-    </div>
     <script>
       document.getElementById("connect").onclick = function () {
         window.location.href =
           "https://www.linkedin.com/in/1brajesh1";
-      };
+        };
+        document.getElementById("connect1").onclick = function () {
+            window.location.href =
+                "https://savesoil.org";
+        };
+        document.getElementById("connect2").onclick = function () {
+            window.location.href =
+                "https://pledge.save-soil.co/1brajesh1savesoil";
+        };
+        document.getElementById("connect3").onclick = function () {
+            window.location.href =
+                "https://isha.sadhguru.org/in/en/wisdom/article/save-the-soil-revitalization-methods";
+        };
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed(".animate", {
-        strings: ["Developer", "Learner", "Believer"],
+          strings: ["Earth Buddy","Developer", "Learner", "Believer"],
         typeSpeed: 65,
-        backSpeed: 65,
+        backSpeed: 0,
         loop: true,
       });
+
+        var typed1 = new Typed(".animate1", {
+            strings: ["SaveSoil", "SaveSoil"],
+            typeSpeed: 65,
+            backSpeed: 0,
+            loop: true,
+        });
     </script>
 
     <script type="text/javascript" src="Js/particles.js"></script>
