@@ -18,6 +18,45 @@
     padding: 0 50px;
 }
 
+.main__container1 {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 95vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+
+/*       height: 400px;
+   width: 100%;
+  
+    background-image: url("./assets/Solution.png");
+      
+   background-repeat: no-repeat, no-repeat;
+   background-position: right, left; */
+}
+
+.main__container2 {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 95vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    height: 600px;
+    width: 100%;
+    background-image: url("Solution.jpg"),url("savesoil.org.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right, left;
+}
+
 .main__content h1 {
     font-size: 4rem;
     font-weight: bold;
