@@ -138,6 +138,14 @@ color: darkgreen;
     width: 25.5em !important;
     background: #ff6a00 !important;
 }
+#connect4 {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 14.5em !important;
+    background: darkgreen !important;
+}
 
 .button {
     align-items: center;
@@ -194,4 +202,9 @@ color: darkgreen;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+hr.new5 {
+    border: 2px solid green;
+    border-radius: 5px;
 }
