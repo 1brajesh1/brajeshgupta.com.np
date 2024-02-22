@@ -210,10 +210,10 @@ hr.new5 {
 }
 /* CSS/style.css */
 
-/* Add general styles here */
+/* General styles */
 
-/* Responsive styles for smaller screens */
-@media only screen and (max-width: 600px) {
+/* Responsive styles for small screens (e.g., mobile devices) */
+@media only screen and (max-width: 480px) {
     .main__container {
         flex-direction: column;
         text-align: center;
@@ -228,5 +228,81 @@ hr.new5 {
         margin-bottom: 20px;
     }
 
-    /* Add more responsive styles as needed */
+    .main__img--container {
+        margin-bottom: 0;
+    }
+
+    #main__img {
+        width: 100%;
+    }
 }
+
+/* Responsive styles for medium-sized screens */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .main__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main__content {
+        order: 2;
+    }
+
+    .main__img--container {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .main__img--container {
+        margin-bottom: 0;
+    }
+
+    #main__img {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for larger screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .main__container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main__content {
+        order: 1;
+    }
+
+    .main__img--container {
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    #main__img {
+        width: 50%;
+    }
+}
+
+/* Responsive styles for even larger screens */
+@media only screen and (min-width: 1025px) {
+    .main__container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main__content {
+        order: 1;
+    }
+
+    .main__img--container {
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    #main__img {
+        width: 30%;
+    }
+}
+
+/* Add more responsive styles as needed */
+
